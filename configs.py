@@ -10,7 +10,7 @@ class Config(object):
 	BOT_USERNAME = "FileStoreOfficialBot"
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001562317304"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1562317304"))
-	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Erichdaniken:Erichdaniken@cluster0.vhu3d.mongodb.net/?retryWrites=true&w=majority")
+	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://video:video@rishi.fzpls33.mongodb.net/?retryWrites=true&w=majority")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "TamilLinksOfficial")
 	LOG_CHANNEL = -1001562317304
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
